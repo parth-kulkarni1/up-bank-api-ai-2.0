@@ -10,6 +10,8 @@ app.include_router(
     prefix="/api"
 )
 
+
+
 @app.get("/")
 async def root() -> Dict[str,str]:
     return {"message": "Welcome to this Up Bank Powered AI Assistant"}
