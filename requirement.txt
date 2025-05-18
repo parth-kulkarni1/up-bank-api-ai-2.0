@@ -1,0 +1,6 @@
+fastapi
+langchain
+up-bank-api[async]
+mypy
+pydantic-settings
+uvicorn[standard]
